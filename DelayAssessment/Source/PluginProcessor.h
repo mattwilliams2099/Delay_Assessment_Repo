@@ -1,10 +1,3 @@
-/*
-  ==============================================================================
-
-    This file contains the basic framework code for a JUCE plugin processor.
-
-  ==============================================================================
-*/
 
 #pragma once
 
@@ -13,8 +6,7 @@
 #include "AudioUtilities.h"
 #include <cmath>
 //==============================================================================
-/**
-*/
+
 class DelayAssessmentAudioProcessor : public juce::AudioProcessor
 {
 public:
